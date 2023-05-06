@@ -3,7 +3,7 @@ var msg2 = ['a','b','c','d','e'];
 var msg3 = ['a','b','c','d','e'];
 
 var randomizer = (msg) => {
-    var r = return Math.floor(Math.random() * msg.length);
+    var r = Math.floor(Math.random() * msg.length);
     return msg[r];
 }
 
